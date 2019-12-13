@@ -1,6 +1,6 @@
 #!groovy
 
-node('default') {
+node('my-release-jenkins-slave') {
     stage('Checkout') {
         checkout scm
     }
